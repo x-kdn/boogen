@@ -6,24 +6,9 @@
 // @version 1.0
 // @include http://steamcommunity.com/tradingcards/boostercreator/
 // ==/UserScript==
-// замыкание, для кроссбраузерности
-(function (window, undefined) {  // нормализуем window
-    var w;
-    if (typeof unsafeWindow != undefined) {
-        w = unsafeWindow
-    } else {
-        w = window;
-    }
 
-    // не запускаем скрипт во фреймах
-    // без этого условия скрипт будет запускаться несколько раз на странице с фреймами
-    if (w.self != w.top) {
-        return;
-    }
-
+(function () {
 	var blacklist = {};
-	
-var blacklist = {};
 
 	 blacklist["-%20Arcane%20RERaise%20-"] = true; 
 	 blacklist["12%20Labours%20of%20Hercules"] = true; 
@@ -610,4 +595,4 @@ var blacklist = {};
  }
 
 
-})(window);
+})();
