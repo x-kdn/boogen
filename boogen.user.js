@@ -10,7 +10,7 @@
 (
  function ()
  {
-  $.getJSON( "http://127.0.0.1:55555/boosters", "" )
+  $J.getJSON( "http://127.0.0.1:55555/boosters", "" )
     .done(function (data)
           {
            var selector = document.getElementById("booster_game_selector");
