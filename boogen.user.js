@@ -38,9 +38,9 @@
            for (var key in data)
                craftlist[key] = true;
            for (i = selector.length - 1; i > 0; i -= 1)
-           if (craftlist[selector.options[i].value]); // alert(selector.options[i].value);
-           else
-            selector.remove(i);
+            if (craftlist[selector.options[i].value]); // alert(selector.options[i].value);
+            else
+             selector.remove(i);
           })
     .fail(function (data) { alert("fail"); }) ;
  }
