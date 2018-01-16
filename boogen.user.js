@@ -3,7 +3,8 @@
 // @description removes some items from booster list
 // @author x-kdn
 // @license MIT
-// @version 1.02
+// @version 1.03
+// @include https://steamcommunity.com/tradingcards/boostercreator/
 // @include http://steamcommunity.com/tradingcards/boostercreator/
 // ==/UserScript==
 
